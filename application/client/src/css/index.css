@@ -1,0 +1,460 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, #dbd8e5, #e4e2ec, #edebf2, #f6f5f9, #ffffff, #ffffff);
+  padding-top: 6.5rem;
+  padding-bottom: 2.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+/* Styling for search bar */
+.searchForm {
+    display: flex;
+    text-align: center;
+    flex: 0 40%;
+    justify-content: center;
+}
+.dropdown {
+    height: 40px;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+    flex: 0 10%;
+    text-align: center;
+}
+.searchBar {
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    flex: 0 80%;
+}
+.searchButton {
+    top: -1px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+    flex: 0 10%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+}
+
+.nav-button {
+    flex: 0 50%;
+    justify-self: center;
+}
+
+.nav-left {
+    display: flex;
+    flex: 0 30%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.nav-right {
+    display: flex;
+    flex: 0 30%;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-loggedin {
+    margin: auto;
+    flex: 0 33%;
+}
+
+.nav-loggedout {
+    margin: auto;
+    flex: 0 33%;
+}
+
+.nav-brand {
+    color: #231161;
+    flex: 0 50%;
+    text-align: center;
+}
+
+.nav-disclaimer{
+    height: 1.5rem;
+}
+
+/* Styling for Footer */
+
+.footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+.footer-contact {
+    text-align: left;
+    flex: 0 30%;
+    padding-left: 2.5rem;
+}
+.footer-policy {
+    justify-content: center;
+    flex: 0 30%;
+}
+.footer-brand-wrapper {
+    padding-right: 2.5rem;
+    margin-left: auto;
+}
+.footer-brand {
+    color: #231161;
+}
+
+
+
+/* Styling for post cards */
+.postPage {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+
+.card {
+    display: inline-block;
+    margin: .5rem;
+    text-align: left;
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-button-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.resultsInfo {
+    display: flex;
+    padding: .5rem;
+}
+
+.resultsNumber {
+    margin-left: auto;
+}
+
+.sortBy {
+    margin-left: auto;
+}
+
+
+.title{
+    text-align: center;
+}
+
+.upload-wrapper {
+    align-items: center;
+}
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    padding-top: .5rem;
+    justify-content: right;
+    width: 45%;
+    margin: auto;
+}
+
+.upload-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.upload-text {
+    width: 50%; 
+    flex: 0 25%;
+    text-align: right;
+}
+.upload-gap {
+    flex: 0 35%;
+}
+.upload-input {
+    flex: 0 40%;
+    width: 10%;
+}
+.upload-select {
+    width: auto;
+}
+.upload-file {
+    margin-left: 10.5%;
+}
+
+.upload-btn{
+    margin-left: auto;
+    width: 15%;
+}
+
+.home-title{
+    text-align: center;
+}
+.home-description {
+    text-align: center;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+
+
+
+
+
+
+
+
+/*
+button {
+    margin-left: 37.5rem;
+}
+    */
+.free-button {
+    margin-left: 37.5rem;
+}
+
+
+.bridge-img {
+    margin-left: 9.375rem;
+    margin-top: -18.938rem;
+    width: 30%;
+}
+
+.contact-post {
+    margin-top: 6.25rem;
+    margin-left: 37.5rem;
+}
+
+.category-price {
+    margin-left: 37.5rem;
+    padding-top: 6.25rem;
+}
+
+.book-img {
+    margin-left: 14.063rem;
+    margin-top: -26.563rem;
+    width: 25%;
+}
+
+.category {
+    margin-left: 37.5rem;
+    padding-top: 11.875rem;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-button {
+    margin-top: 1.563rem;
+    margin-left: 8.75rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.auth-inner {
+    width: 28.125rem;
+    height: 25rem;
+    margin: auto;
+    font-weight: 4000;
+    margin-top: 6.25rem;
+    background: #ffffff;
+    box-shadow: 0px 0.875rem 5rem rgba(34, 35, 58, 0.2);
+    padding: 2.5rem 3.438rem 2.813rem 3.438rem;
+    border-radius: 0.938rem;
+    transition: all .3s;
+}
+
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.link {
+    text-align: right;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.links {
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.auth-inner1 {
+    width: 28.125rem;
+    height: 44.625rem;
+    margin: auto;
+    font-weight: 4000;
+    margin-bottom: 6.25rem;
+    margin-top: 6.25rem;
+    background: #ffffff;
+    box-shadow: 0px 0.875rem 5rem rgba(34, 35, 58, 0.2);
+    padding: 2.5rem 3.438rem 2.813rem 3.438rem;
+    border-radius: 0.938rem;
+    transition: all .3s;
+}
+
+.terms {
+    font-weight: 400;
+    font-size: 0.688rem;
+}
+
+.auth-inner2 {
+    width: 28.125rem;
+    height: 18.75rem;
+    margin: auto;
+    font-weight: 4000;
+    margin-bottom: 6.25rem;
+    margin-top: 6.25rem;
+    background: #ffffff;
+    box-shadow: 0px 0.875rem 5rem rgba(34, 35, 58, 0.2);
+    padding: 2.5rem 3.438rem 2.813rem 3.438rem;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.auth-inner3 {
+    width: 28.125rem;
+    height: 31.25rem;
+    margin-left: 31.25rem;
+    margin-top: 3.25rem;
+    font-weight: 4000;
+    background: #ffffff;
+    box-shadow: 0px 0.875rem 5rem rgba(34, 35, 58, 0.2);
+    padding: 2.5rem 3.438rem 2.813rem 3.438rem;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.link-button {
+    margin-left: 37.5rem;
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.child-1 {
+    flex: 0 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.child-2 {
+    flex: 0 50%;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+}
+
+.post-title {
+    font-size: 5vw;
+    flex: 0 40%;
+}
+
+.post-seller {
+    padding-top: 1rem;
+    font-size: 1.5vw;
+    flex: 0 20%;
+}
+
+.post-category {
+    padding-top: 1rem;
+    font-size: 1vw;
+    flex: 0 10%;
+}
+.post-price {
+    padding-top: 1rem;
+    font-size: 1vw;
+    flex: 0 10%;
+}
+
+.post-button-wrapper {
+    flex: 20%;
+}
+
+.post-button {
+    margin-top: 1rem;
+}
+
+img.free-post-image {
+    width: 100%;
+    height: auto;
+}
+.asterisk{
+    color: red;
+}
+.required-fields{
+    text-align: left;
+}
+.account{
+    font-weight: 400;
+    font-size: 0.688rem;
+   text-align: left;
+}
+
+#logo {
+    width: 276px;
+    height: auto;
+    margin-left: 15px;
+}
+
+#logo-footer {
+    width: 138px;
+    height: auto;
+}
+

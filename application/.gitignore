@@ -1,0 +1,4 @@
+client/node_modules
+flask-server/venv
+flask-server/server.py
+.idea
